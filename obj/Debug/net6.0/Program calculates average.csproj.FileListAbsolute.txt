@@ -1,0 +1,15 @@
+C:\Users\mp333\Desktop\Program calculates average\bin\Debug\net6.0\Program calculates average.exe
+C:\Users\mp333\Desktop\Program calculates average\bin\Debug\net6.0\Program calculates average.deps.json
+C:\Users\mp333\Desktop\Program calculates average\bin\Debug\net6.0\Program calculates average.runtimeconfig.json
+C:\Users\mp333\Desktop\Program calculates average\bin\Debug\net6.0\Program calculates average.dll
+C:\Users\mp333\Desktop\Program calculates average\bin\Debug\net6.0\Program calculates average.pdb
+C:\Users\mp333\Desktop\Program calculates average\obj\Debug\net6.0\Program calculates average.csproj.AssemblyReference.cache
+C:\Users\mp333\Desktop\Program calculates average\obj\Debug\net6.0\Program calculates average.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mp333\Desktop\Program calculates average\obj\Debug\net6.0\Program calculates average.AssemblyInfoInputs.cache
+C:\Users\mp333\Desktop\Program calculates average\obj\Debug\net6.0\Program calculates average.AssemblyInfo.cs
+C:\Users\mp333\Desktop\Program calculates average\obj\Debug\net6.0\Program calculates average.csproj.CoreCompileInputs.cache
+C:\Users\mp333\Desktop\Program calculates average\obj\Debug\net6.0\Program calculates average.dll
+C:\Users\mp333\Desktop\Program calculates average\obj\Debug\net6.0\refint\Program calculates average.dll
+C:\Users\mp333\Desktop\Program calculates average\obj\Debug\net6.0\Program calculates average.pdb
+C:\Users\mp333\Desktop\Program calculates average\obj\Debug\net6.0\Program calculates average.genruntimeconfig.cache
+C:\Users\mp333\Desktop\Program calculates average\obj\Debug\net6.0\ref\Program calculates average.dll
