@@ -4,8 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("The program calculates the average\nof the numbers. To finish entering \nnumbers, press ENTER." +
-                "To start a new\ncalculation, press any button\n");
+            Console.WriteLine(@"The program calculates the average
+of the numbers. To finish entering
+numbers, press ENTER.
+To start a newcalculation, press any button
+");
+
             while (true)
             {
                 List<double> listNumbers = new List<double>();
@@ -16,32 +20,20 @@
                     Console.Write("Enter the following number:");
                     var valueFromConsole = Console.ReadLine();
                     if (valueFromConsole == "") break;
-                    double Number = 0;
-                    try
-                    {
-                        Number = double.Parse(valueFromConsole);
-                    }
-                    catch
+
+                    if (!double.TryParse(valueFromConsole, out double Number))
                     {
                         Console.WriteLine("The entered value is not a number\n");
                         continue;
                     }
                     listNumbers.Add(Number);
 
-                    Console.Write("List: ");
-                    foreach (var item in listNumbers)
-                    {
-                        Console.Write("{0} ", item);
-                    }
-                    Console.WriteLine("\n");
+                    Console.WriteLine("List: {0}", string.Join(", ", listNumbers));
                 }
 
-                int n = listNumbers.Count();
-                double sum = 0;
-                foreach (var item in listNumbers)
-                    sum += item;
+                var average = listNumbers.Sum() / listNumbers.Count;
 
-                Console.WriteLine("Results: {0}\n", sum / n);
+                Console.WriteLine("Results: {0}\n", average);
                 Console.ReadKey();
             }
         }
